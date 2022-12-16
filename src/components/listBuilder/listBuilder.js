@@ -1,8 +1,8 @@
-import Lists from "./listContainer";
-import data from "./colors";
+import Lists from '../listCont/listContainer';
+import data from "../data/colors";
 import listBuildStyler from "./listBuilderStyler.css"
-export default function ListBuilder(){
 
+export default function ListBuilder(){
 const entries = data.map(item =>{
     return(
         <Lists 

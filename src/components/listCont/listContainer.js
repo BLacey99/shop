@@ -1,9 +1,9 @@
 import React from 'react';
-import listContainer from './listContainer.css';
 
 
 
-export default function Lists(props){
+
+export default function Lists (props){
     return(
         <div id="product-container" key={props.data.id}>
             <small>{props.data.id}</small><h3>{props.data.value}</h3>
