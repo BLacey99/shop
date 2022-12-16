@@ -1,6 +1,30 @@
 #product-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
     color:purple;
+    font-size:0.8rem;
     border:black solid 1px;
-    background-color:orange;
-    width:100%;
+    background-color:rgb(214, 212, 208);
+    width:15rem;
+    height:15rem;
+    transition:transform 0.25s ease-in;
+}
+
+#product-container:hover{
+    transform:scale(115%);
+    border:2px green solid;
+    cursor:pointer;
+   
+}
+
+
+@media only screen and ( max-width:500px) {
+    #product-container{
+        width:8rem;
+        height:8rem;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }

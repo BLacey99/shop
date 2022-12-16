@@ -7,11 +7,13 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
-      
-     <NavBar/>
+     
+      <NavBar/>
      <ListBuilder/>
      <Footer/>
      
+     
+  
 
     </div>
   );
