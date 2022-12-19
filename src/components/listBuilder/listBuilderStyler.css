@@ -1,13 +1,12 @@
 #products{
     margin-left:auto;
     margin-right:auto;
-
     flex-wrap:wrap;
     padding:15px;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
     background-color:grey;
-    min-width:50%;
+    width:clamp(50%, 55%, 75%);
     border:1px solid red;
     gap:10px;
     justify-items:space-evenly;

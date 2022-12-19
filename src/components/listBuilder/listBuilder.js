@@ -1,11 +1,14 @@
 import Lists from '../listCont/listContainer';
 import data from "../data/colors";
-import listBuildStyler from "./listBuilderStyler.css"
+import "./listBuilderStyler.css"
 
-export default function ListBuilder(){
+
+export default function ListBuilder(props){
+
 const entries = data.map(item =>{
     return(
         <Lists 
+        cake = {props.addFunct}
         data={item}
         />)
     })

@@ -1,0 +1,199 @@
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
+
+{
+    "manufacturer": "PlaceHolder",
+    "Specs":{
+        "cores": "4",
+        "virtual cores":"4",
+        "clockspeed":"3.7Ghz",
+        "overclock":{
+            "capable":"Overclockable",
+            "overclock-speed":"4.7Ghz",
+        },
+        "caches":{
+            "l1":"10mb",
+            "l2":"8mb",
+            "l3":"4mb",
+        },
+       
+        },
+    "price":"$400.07"
+},
