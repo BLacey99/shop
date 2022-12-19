@@ -18,7 +18,11 @@
     cursor:pointer;
    
 }
-
+p, h3, small{
+    font-weight:bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(59, 59, 59);
+}
 
 @media only screen and ( max-width:500px) {
     #product-container{

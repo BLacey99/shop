@@ -13,7 +13,8 @@ export default function Lists (props){
     }
     */
         const colorApplication = {
-        color: props.data.value,
+        color: props.data.value
+        
     };
 
 
