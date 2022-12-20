@@ -39,5 +39,23 @@ export default[	{
     value: "#000",
     id:6,
     price: 34.99
-  }]
+  },
+  {
+    color: "blue",
+    value: "#00f",
+    id: 2,
+    price: 2.99
+  },
+  {
+    color: "blue",
+    value: "#00f",
+    id: 2,
+    price: 2.99
+  },
+  {
+    color: "blue",
+    value: "#00f",
+    id: 2,
+    price: 2.99
+  },]
   

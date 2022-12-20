@@ -16,7 +16,7 @@ export default function Lists (props){
     }
 
     return(
-        <div id="product-container" onClick={setter}  key={props.data.id} style={colorApplication}>
+        <div id="product-container"   key={props.data.id} style={colorApplication}>
             <small>{props.data.id}</small><h3>{props.data.value}</h3>
             <p className='color' >This color is: {props.data.color}</p>
             <p>Price: {props.data.price}</p>
