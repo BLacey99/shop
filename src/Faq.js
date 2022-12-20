@@ -1,17 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import NavBar from './components/nav/nav';
 import Footer from './components/footer/footer';
 import ShopBody from './components/shop-body/shop-body';
-import RouteSwitch from "./RouteSwitch";
 
-function App() {
+function Faq() {
   return (
-    <div className="App">
+    <div className="Faq">
      
-    
-    
-    <h1>Home Page</h1>
+  
+    <h1>F.A.Q</h1>
   
      
      
@@ -21,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Faq;

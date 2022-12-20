@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 import NavBar from './components/nav/nav';
 import Footer from './components/footer/footer';
 import ShopBody from './components/shop-body/shop-body';
-import RouteSwitch from "./RouteSwitch";
 
-function App() {
+function Contact() {
   return (
-    <div className="App">
+    <div className="Contact">
      
-    
-    
-    <h1>Home Page</h1>
-  
+ 
+    <h1>Contact Us</h1>
+
      
      
   
@@ -21,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contact;

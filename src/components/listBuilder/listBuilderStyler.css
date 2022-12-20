@@ -6,7 +6,7 @@
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
     background-color:grey;
-    width:clamp(50%, 55%, 75%);
+    width:clamp(65vw, 70vw, 75vw);
     border:1px solid red;
     gap:10px;
     justify-items:space-evenly;
