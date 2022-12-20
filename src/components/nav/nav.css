@@ -3,12 +3,12 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    height:100px;
+    height:70px;
     box-shadow: 2px 3px 5px 2px rgba(255, 190, 10, 0.5);
     width:100%;
 }
 #nav-div{
-    
+    height:auto;
     margin-left:auto;
     margin-right:auto;
    

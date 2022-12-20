@@ -1,0 +1,21 @@
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.fieldset{
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    width:20rem;
+    }
+
+
+    #messageBox input{
+        width:20rem;
+        height:10rem;
+   
+    }
