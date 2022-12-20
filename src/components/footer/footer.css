@@ -5,4 +5,8 @@ footer{
     height:50px;
     background-color:rgb(196, 96, 96);
     box-shadow: 1px 1px 5px 5px rgba(255, 190, 10, 0.5);
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }

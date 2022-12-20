@@ -1,4 +1,4 @@
-nav{
+.nav-bar-comp{
     background-color:rgb(196, 96, 96);
     display:flex;
     align-items:center;
@@ -8,7 +8,9 @@ nav{
     width:100%;
 }
 #nav-div{
-    width:100%;
+    
+    margin-left:auto;
+    margin-right:auto;
    
 }
 
