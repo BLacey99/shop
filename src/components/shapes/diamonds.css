@@ -1,0 +1,18 @@
+    #diamond-shield {
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom: 20px solid red;
+      position: relative;
+      top: 10px;
+    }
+    #diamond-shield:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 30px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top: 70px solid red;
+    }

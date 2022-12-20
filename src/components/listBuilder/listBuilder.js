@@ -8,7 +8,7 @@ export default function ListBuilder(props){
 const entries = data.map(item =>{
     return(
         <Lists 
-        cake = {props.addFunct}
+        addFunct = {props.addFunct}
         data={item}
         />)
     })

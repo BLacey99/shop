@@ -6,21 +6,23 @@ import AddToCart from '../shopping-cart/cart/itemAdder/itemAdder';
 export default function Lists (props){
    
         const [price, setPrice] = useState(props.data.price);
+        const[quantity, setQuantity] = useState(0);
         const colorApplication = {
         color: props.data.value
     };
 
-    function setter(){
-        props.cake(price);
-        console.log(props.data.price)
-    }
+        function quantityRaise(){
+            setQuantity(quantity+1);
+            console.log("Quantity: "+quantity+ " Of color: " + props.data.color);
+        }
 
     return(
         <div id="product-container"   key={props.data.id} style={colorApplication}>
             <small>{props.data.id}</small><h3>{props.data.value}</h3>
             <p className='color' >This color is: {props.data.color}</p>
             <p>Price: {props.data.price}</p>
-            <AddToCart price = {price} setNewTotal ={props.cake} />   
+            <p>Quantity In Cart: {quantity}</p>
+            <AddToCart price = {price} addFunct ={props.addFunct} quantityRaise = {quantityRaise}/>   
         </div>
     )
 }
