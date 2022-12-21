@@ -61,3 +61,32 @@ a{
 a:visited{
     color:black;
 }
+
+@media only screen and (max-width: 768px){
+    .nav-bar-comp{
+        min-height:20vh;
+        width:100vw;
+      
+    }
+    #nav-div button{
+        width:50px;
+        height:20px;
+    }
+
+
+    #Logo{
+        flex:1;
+    }
+
+    #nav-div{
+        flex-direction: row;
+        
+        flex:2;
+      
+    }
+
+    #contact-form{
+      flex:1;
+    }
+
+}
