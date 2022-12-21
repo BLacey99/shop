@@ -3,19 +3,43 @@ form{
     flex-direction:column;
     justify-content:center;
     align-items: center;
+    gap:20px;
     
 }
 
 .fieldset{
     display:flex;
     flex-direction:column;
-    margin-left:auto;
-    width:20rem;
+    margin-right:auto;
+    max-width:35rem;
+    min-width:390px;
+    color:white;
     }
 
 
-    #messageBox input{
-        width:20rem;
+    #textField{
+        max-width:30rem;
+        min-width:350px;
         height:10rem;
+        border:3px solid rgb(173, 113, 243);
    
+    }
+
+textarea{
+    resize:none;
+    max-width:40rem;
+    min-width:300px;
+    min-height:20rem;
+}
+
+    #submit:hover{
+        cursor:pointer;
+        background-color:rgb(212, 71, 71);
+    }
+
+    #submit{
+        width:200px;
+        border-radius:15px;
+        height:30px;
+        background-color:rgb(173, 113, 243);
     }

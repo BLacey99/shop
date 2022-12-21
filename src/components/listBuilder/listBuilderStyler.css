@@ -3,7 +3,7 @@
     padding:15px;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
-    background-color:grey;
+    background-color:rgb(173, 113, 243);
     width:clamp(70vw, 75vw, 80vw);
     height:50%;
     border:1px solid red;

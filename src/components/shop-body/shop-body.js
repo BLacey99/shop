@@ -23,8 +23,10 @@ export default function ShopBody(props){
     return(
         <div className="shop-body">
             <ListBuilder addFunct={increment}/>
+            <div className="cartValues">
             <p>Total: ${total.toFixed(2)}</p>
             <p>Cart: {cartSize}</p>
+            </div>
         </div>
     )
 }
