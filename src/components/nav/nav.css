@@ -5,8 +5,8 @@
     justify-content:center;
     min-height:7vh;
 
-    box-shadow: 2px 3px 5px 2px rgba(255, 190, 10, 0.5);
-    min-width:100vw;
+    text-align: center;
+
 }
 #nav-div{
   
@@ -73,20 +73,5 @@ a:visited{
         height:20px;
     }
 
-
-    #Logo{
-        flex:1;
-    }
-
-    #nav-div{
-        flex-direction: row;
-        
-        flex:2;
-      
-    }
-
-    #contact-form{
-      flex:1;
-    }
 
 }

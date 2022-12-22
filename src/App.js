@@ -9,6 +9,7 @@ import Images from './components/HomeImages/Images'
 function App() {
   return (
     <div className="App">
+            <a href="http://localhost:3000/store"><button>Store</button></a>
      <Images/>
     </div>
   );

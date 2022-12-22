@@ -3,6 +3,8 @@
     color:rgb(43, 74, 102);
     width:75vw;
     height:500px;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 
@@ -24,3 +26,16 @@ ul li{
     margin-left:45px;
   
 }
+
+
+.Faq .nav-bar-comp{
+    min-width:100%;
+    width:100vw;    
+    }
+
+    .Faq h1{
+        color:white;
+        text-align:center;
+    }
+
+

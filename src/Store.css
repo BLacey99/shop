@@ -1,0 +1,21 @@
+.storeNav{
+    display:flex;
+    background-color:rgb(248, 248, 248);
+    align-items:center;
+    min-width:100vw !important;
+    width:100%;
+    color:rgb(16, 241, 65);
+    flex-direction:row;
+}
+
+.storeNav div{
+    text-align:center;
+    
+}
+.cartty{
+    flex:1;
+}
+.navvy{
+    flex:8;
+}
+

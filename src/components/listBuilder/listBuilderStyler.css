@@ -8,8 +8,9 @@
     height:50%;
     border:1px solid red;
     row-gap: 20px;
-    
-    
+    margin-left:auto;
+    margin-right:Auto;
+    margin-top:2.5%;
     
     
 }

@@ -1,7 +1,9 @@
 footer{
    
     bottom:0;
-    width:100%;
+    min-width:100%;
+    width:100vw;
+   
     height:70px;
     background-color:rgb(173, 113, 243);
     box-shadow: 1px 1px 5px 5px rgba(255, 190, 10, 0.5);
@@ -9,4 +11,5 @@ footer{
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-top:2.5%;
 }

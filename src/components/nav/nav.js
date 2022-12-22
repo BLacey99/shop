@@ -1,7 +1,9 @@
 import React from 'react';
 import './nav.css';
+import Cart from '../shopping-cart/cart/cart/cart';
+import { useState } from 'react';
+export default function NavBar(props){
 
-export default function NavBar(){
     return(
         <nav className='nav-bar-comp'>
             <div id="Logo"><h1><a href="http://localhost:3000/">LogoHere</a></h1></div>
@@ -11,6 +13,8 @@ export default function NavBar(){
                <a href="http://localhost:3000/faq"><button>FAQ</button></a>
             </div>
             <div id="contact-form"><a href="http://localhost:3000/contact"><button>Contact Us</button></a></div>
+            
+       
         </nav>
     )
 }

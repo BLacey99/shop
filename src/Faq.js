@@ -7,6 +7,8 @@ function Faq() {
     <div className="Faq">
      
   
+
+    <NavBar/>
     <h1>F.A.Q</h1>
     <FaqList/>
   
