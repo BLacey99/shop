@@ -1,3 +1,41 @@
 .cartClass{
 margin-right:2.5%;
 }
+
+
+#cartIcon{
+    min-height:2rem !important;
+    min-width:2.5rem !important;
+    
+ 
+}
+
+a{
+
+}
+
+#cartIcon{
+    scale:90%;
+
+}
+
+#cartSize{
+    position:absolute;
+    left:48.5%;
+    top:30%;
+}
+
+#cartContainer{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+
+#cartContainer:hover{
+    scale:105%;
+    cursor:pointer;
+ 
+
+}
