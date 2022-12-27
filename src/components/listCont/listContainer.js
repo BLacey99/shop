@@ -18,6 +18,7 @@ export default function Lists (props){
 
     return(
         <div id="product-container"   key={props.data.id} style={colorApplication}>
+            <img src="https://reactjs.org/logo-og.png" alt="React Logo"></img>
             <small>{props.data.id}</small><h3>{props.data.value}</h3>
             <p className='color' >This color is: {props.data.color}</p>
             <p>Price: {props.data.price}</p>

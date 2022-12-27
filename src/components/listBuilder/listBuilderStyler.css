@@ -2,12 +2,12 @@
    
     padding:15px;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(475px, 1fr) );
     background-color:#ffffff;
-    width:clamp(70vw, 75vw, 80vw);
-    height:50%;
-
-    row-gap: 20px;
+    min-width:clamp(70vw, 75vw, 80vw);
+    max-height:80%;
+    
+    row-gap: 50px;
     margin-left:auto;
     margin-right:Auto;
     margin-top:2.5%;
