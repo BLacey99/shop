@@ -2,14 +2,19 @@
     display:flex;
     background-color:rgb(248, 248, 248);
     align-items:center;
-    min-width:100vw !important;
-    width:100%;
-    color:rgb(16, 241, 65);
+    font-size:0.8em;
+    color:rgb(228, 235, 230);
     flex-direction:row;
+    justify-content: center;
+    min-width:100vw;
+   
+    padding:20px;
+
+    
 }
 
-.storeNav div{
-    text-align:center;
+.storeNav{
+    background-color:#2E1F47;
     
 }
 .cartty{
@@ -17,5 +22,19 @@
 }
 .navvy{
     flex:8;
+
 }
 
+
+.storeNav .navvy, .storeNav .cartty{
+   
+    background-color:#2E1F47;
+    padding:0;
+    margin:0;
+   display:block;
+}
+
+
+body{
+    background-color:White;
+}

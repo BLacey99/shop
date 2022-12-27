@@ -1,11 +1,13 @@
 .cartClass{
-margin-right:2.5%;
+
+background-color: #2E1F47;
+
 }
 
 
 #cartIcon{
-    min-height:2rem !important;
-    min-width:2.5rem !important;
+
+    min-width:1.5rem !important;
     
  
 }
@@ -15,7 +17,6 @@ a{
 }
 
 #cartIcon{
-    scale:90%;
 
 }
 

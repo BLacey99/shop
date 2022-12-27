@@ -8,7 +8,7 @@
 
     font-size:clamp(1rem, 1.2rem, 1.4rem);
     border:black solid 1px;
-    background-color:rgb(212, 71, 71);
+    background-color:#685B87;
     width:200px;
     height:200px;
     transition:transform 0.25s ease-in;

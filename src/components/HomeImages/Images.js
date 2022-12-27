@@ -11,9 +11,10 @@ export default function Images(){
     return(
 <div className="imgContainer">
     
+
+<Amd/>
 <Generic/>
 <Amd/>
-<Nvidia/>
 </div>
 
     )

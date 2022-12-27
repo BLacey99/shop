@@ -1,0 +1,23 @@
+.Genericsector{
+    background-color:#7B7DA9;
+    display:flex;
+    max-width:85%;
+    margin-right:auto;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius:100px;
+    padding:40px;
+    text-align:center;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    font-size:1.5rem;
+    min-height:500px;
+    background-color:#47366A;
+    
+}
+
+.Genericsector img{
+    max-width:40vw;
+    
+}
