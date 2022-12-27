@@ -14,7 +14,37 @@
     font-size:1.5rem;
     min-height:500px;
     margin-top:2%;
-    
+    gap:50px;
+    font-size:1.5rem;
+    min-height:500px;
+    border-left:3px solid #885da1;
+    border-top:3px solid #885da1;
+    border-bottom:3px solid #885da1;
+    background: linear-gradient(90deg,rgba(123,125,169,1)  0%, rgba(95,83,125,1) 50%,  rgba(46,31,71,1) 100%);;
+    box-shadow:  5px 7px 10px 3px rgba(0, 0, 0, 0.4);
+}
+
+.AMDinner{
+    background-color:#7B7DA9;
+    display:flex;
+    width:max(calc(100% + 10em));
+    margin-left:auto;
+    margin-right:-50px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px;
+    padding:40px;
+    text-align:center;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    font-size:1.5rem;
+    min-height:450px;
+    background: linear-gradient(60deg, rgba(17,17,17,1) 0%, rgb(34, 34, 34) 70%, rgb(71, 71, 71) 100%);
+    color:white;
+    border:3px solid #685B87;
+    box-shadow:  5px 7px 10px 3px rgba(0, 0, 0, 0.4);
+
 }
 
 .AMDsector img{
