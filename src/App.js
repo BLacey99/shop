@@ -5,18 +5,15 @@ import Footer from './components/footer/footer';
 import ShopBody from './components/shop-body/shop-body';
 import RouteSwitch from "./RouteSwitch";
 import Diamond from './components/shapes/diamond';
+import Images from './components/HomeImages/Images'
 function App() {
   return (
     <div className="App">
-     
-    
-    
-    <h1>Home Page</h1>
-    <Diamond/>
-     
-     
-  
-
+      <div id="storeDiv">
+      <a href="http://localhost:3000/store"><button>Store</button></a>
+      </div>
+           
+     <Images/>
     </div>
   );
 }

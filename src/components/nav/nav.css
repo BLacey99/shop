@@ -1,14 +1,14 @@
 .nav-bar-comp{
-    background-color:rgb(196, 96, 96);
+    background-color:#2E1F47;
     display:flex;
     align-items:center;
     justify-content:center;
-    height:70px;
-    box-shadow: 2px 3px 5px 2px rgba(255, 190, 10, 0.5);
-    width:100%;
+    min-height:10vh;
+    text-align: center;
+
 }
 #nav-div{
-    height:auto;
+  
     margin-left:auto;
     margin-right:auto;
    
@@ -24,8 +24,8 @@
 }
 
 #contact-form button{
-    background-color: rgb(0, 129, 168);
-    height:25px;
+    background-color: rgb(179, 179, 179);
+
      width:100px;
     margin-left:20px;
     margin-right:20px;
@@ -33,20 +33,21 @@
     border-radius:12px;
 }
 
-#nav-div button{
+#nav-div button, #contact-form button{
     width:100px;
-    height:25px;
+   
     margin-left:20px;
     margin-right:20px;
     box-shadow:2px 3px 5px 2px rgba(255,127,127,0.5);
     border-radius:12px;
-    border:1px solid orangered;
+    background-color:#7B7DA9;
+    border:1px solid rgb(111, 105, 151);
 }
 
 
-button:hover{
+#nav-div button:hover, button:hover{
     scale:115%;
-    background-color:green;
+    background-color:rgb(212, 71, 71);
     box-shadow:2px 3px 5px 2px rgba(255,255,127,0.5);
     border:1px solid darkgreen;
     cursor:pointer;
@@ -57,5 +58,19 @@ a{
 }
 
 a:visited{
-    color:black;
+    color:rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px){
+    .nav-bar-comp{
+        min-height:20vh;
+        width:100vw;
+      
+    }
+    #nav-div button{
+        width:50px;
+        height:20px;
+    }
+
+
 }

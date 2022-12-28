@@ -5,13 +5,18 @@
     text-align: center;
     margin-left:auto;
     margin-right:auto;
-
     font-size:clamp(1rem, 1.2rem, 1.4rem);
     border:black solid 1px;
-    background-color:rgb(214, 212, 208);
-    width:200px;
-    height:200px;
+    background-color:#685B87;
+    min-width:200px;
+    min-height:500px;
     transition:transform 0.25s ease-in;
+}
+
+#product-container img{
+    max-width:25em;
+    padding:5%;
+ 
 }
 
 #product-container:hover{

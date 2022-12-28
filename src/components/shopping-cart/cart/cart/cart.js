@@ -1,35 +1,19 @@
-import React from "react"
-import './cart.css'
+import React from "react";
+import "./cart.css";
 import { useState } from "react";
+import CartIcon from "./cartIcon.png";
 
-export default function Cart(props){
-
-    const [total, setTotal] = useState(0.00);
-   
-
-/*     function reduction(){
-        setTotal(total - props.data.price);
-        return total.toString();
-    }
-    function append(){
-        setTotal(total + props.data.price);
-        return total.toString();
-    }
-
-    function voidItOut(){
-        setTotal(0.00);
-        return total.toString();
-    } */
-
-
-    return(
-        <div>
-              
-            <p>Total: ${total}</p>
-            <p>Hello {total + 1}</p>
-            
-        
+export default function Cart(props) {
+  return (
+    <div className="cartClass">
+      <div id="cartContainer">
+      <a href="http://localhost:3000/"><img id="cartIcon" src={CartIcon}></img></a>
+        <div id="cartSize">
+          <p>{props.cartSize}</p>
         </div>
-    )
+      </div>
 
+      <p>Total: ${props.total.toFixed(2)}</p>
+    </div>
+  );
 }

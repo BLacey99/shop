@@ -2,14 +2,15 @@
    
     padding:15px;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
-    background-color:grey;
-    width:clamp(70vw, 75vw, 80vw);
-    height:50%;
-    border:1px solid red;
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(475px, 1fr) );
+    background-color:#ffffff;
+    min-width:clamp(70vw, 75vw, 80vw);
+    max-height:80%;
     
-    
+    row-gap: 50px;
+    margin-left:auto;
+    margin-right:Auto;
+    margin-top:2.5%;
     
     
 }

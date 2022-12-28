@@ -1,9 +1,21 @@
 .Faq-container{
-    background-color:rgb(173, 82, 226);
-    color:rgb(43, 74, 102);
+    background-color:#7B7DA9;
+    color:#2E1F47;
+    border:5px solid #2E1F47;
+    font-weight:bolder;
+    font-size:1.5em;
     width:75vw;
-    height:500px;
+    min-height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    text-align:center;
+    
 
+}
+
+.Faq-container div{
+    background-color:White;
 }
 
 
@@ -18,9 +30,26 @@ ul{
     list-style:inside;
     display:flex;
     flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 ul li{
-    margin-left:45px;
+    margin-left:55px;
   
 }
+
+
+.Faq .nav-bar-comp{
+    min-width:100%;
+    width:100vw;    
+    }
+
+    .Faq h1{
+        color:white;
+        text-align:center;
+    }
+
+

@@ -1,0 +1,42 @@
+.cartClass{
+
+background-color: #2E1F47;
+
+}
+
+
+#cartIcon{
+
+    min-width:1.5rem !important;
+    
+ 
+}
+
+a{
+
+}
+
+#cartIcon{
+
+}
+
+#cartSize{
+    position:absolute;
+    left:48.5%;
+    top:30%;
+}
+
+#cartContainer{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+
+#cartContainer:hover{
+    scale:105%;
+    cursor:pointer;
+ 
+
+}

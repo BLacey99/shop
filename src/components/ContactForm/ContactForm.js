@@ -1,12 +1,33 @@
 import React from "react";
-
+import { useState } from "react";
 import "./ContactForm.css";
 
 
 export default function ContactForm(){
 
+    const[charCount, setCharCount] = useState(0);
 
 
+    const limiter = {
+        color:"",
+        writable:true
+    };
+
+function handleChange(e){
+    setCharCount(e.target.value.length);
+   
+}
+
+function calcCount(charCount){
+    if(charCount > 1000){
+        console.log("fuck off");
+         limiter.color="red";
+    }else{
+        console.log("suffer");
+         limiter.color="white";
+    }
+    return (1250-charCount);
+}
 
     return(
         <form>
@@ -24,11 +45,13 @@ export default function ContactForm(){
             </div>
             <div className="fieldset" id="messageBox">
                 <label>Message </label>
-                <input type="text" required></input>
+                <textarea type="text" id="textField" rows="4" cols="50" maxlength="1250" onChange={handleChange}  required></textarea>
+                <p id="charCountVal" style={limiter}>{calcCount(charCount)} characters remaining</p>
             </div>
 
-            <div className="submitButton" id="submit">
-                <input type="submit"/>
+            <div className="submitButton" >
+                <input type="submit" id="submit" value="Submit"
+                />
             </div>
         </form>
     )

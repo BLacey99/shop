@@ -12,7 +12,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='primary-body'>
   <React.StrictMode>
-    <NavBar/>
     <RouteSwitch />
     <Footer/>
   </React.StrictMode>
