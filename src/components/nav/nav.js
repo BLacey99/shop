@@ -11,8 +11,9 @@ export default function NavBar(props){
             <a href="http://localhost:3000/"><button>Home</button></a>
                 <a href="http://localhost:3000/store"><button>Store</button></a>
                <a href="http://localhost:3000/faq"><button>FAQ</button></a>
+               <a href="http://localhost:3000/contact"><button>Contact Us</button></a>
             </div>
-            <div id="contact-form"><a href="http://localhost:3000/contact"><button>Contact Us</button></a></div>
+        
             
        
         </nav>

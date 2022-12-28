@@ -10,12 +10,18 @@
     margin-right:auto;
     padding:20px;
     text-align:center;
-    
+    margin-bottom:50px;
 
 }
 
+
+.Faq{
+    background-color: rgb(182, 182, 182);
+}
+
 .Faq-container div{
-    background-color:White;
+    background-color:rgb(182, 182, 182);
+ 
 }
 
 

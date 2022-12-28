@@ -1,6 +1,7 @@
 .Contact .nav-bar-comp{
     min-width:100%;
     width:100vw;    
+    
     }
 
     .Contact h1{
@@ -8,3 +9,8 @@
         text-align:center;
     }
 
+.Contact{
+    background-color: rgb(182, 182, 182);
+    margin-bottom:50px;
+    
+}

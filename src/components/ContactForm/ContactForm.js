@@ -20,10 +20,8 @@ function handleChange(e){
 
 function calcCount(charCount){
     if(charCount > 1000){
-        console.log("fuck off");
          limiter.color="red";
     }else{
-        console.log("suffer");
          limiter.color="white";
     }
     return (1250-charCount);
