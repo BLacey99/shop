@@ -1,11 +1,30 @@
 .images{
     background-color:rgb(182, 182, 182);
+    background:none;
+      
+   
 }
 
+.imgContainer .images:nth-child(even){
+    background: radial-gradient(circle at 90% 50%, #fff 0%, rgb(68, 1, 112) 0%, #011 28%);
+}
+
+.imgContainer .images:nth-child(odd){
+    background: radial-gradient(circle at 10% 50%, #fff 0%, rgb(68, 1, 112) 0%, #011 28%);
+}
+
+
 .imgContainer{
-    background-color:rgb(182, 182, 182);
     display:flex;
     flex-direction:column;
     gap:40px;
-
+    background-color:rgba(42, 7, 66, 0.527);
+ 
+    
+   
+      
+}
+body{
+    background: radial-gradient(circle at 90% 80%, #fff 0%, #1a8 0%, #011 28%);
+      
 }

@@ -4,8 +4,9 @@
   display:flex;
   flex-direction:column;
  
-  justify-content: space-between;
-
+  justify-content: space-evenly;
+background:#011;
+      
 }
 
 .App-logo {
