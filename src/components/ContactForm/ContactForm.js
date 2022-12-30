@@ -29,6 +29,9 @@ function calcCount(charCount){
 
     return(
         <form>
+            <div className="backgroundFields">
+
+           
             <div className="fieldset">
                 <label>Name* </label>
                 <input type="text" required></input>
@@ -50,6 +53,7 @@ function calcCount(charCount){
             <div className="submitButton" >
                 <input type="submit" id="submit" value="Submit"
                 />
+            </div>
             </div>
         </form>
     )

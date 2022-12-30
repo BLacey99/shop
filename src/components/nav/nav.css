@@ -3,26 +3,22 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    min-height:10vh;
+    max-height:10vh;
     text-align: center;
-
+    font-size:0.8em;
+    min-width:100vw;
+   
+    padding:20px;
 }
-#nav-div{
-  margin-left:auto;
-  margin-right:auto;
+
 
    
-}
 
 #Logo{
     color:white;
-    margin-right:auto;
+   
 }
-
-#contact-form{
   
-}
-
 #contact-form button{
     background-color: rgb(179, 179, 179);
 
@@ -66,12 +62,15 @@ a:visited{
     .nav-bar-comp{
         min-height:20vh;
         width:100vw;
-      
+        flex-direction:column;
+        max-height:none;
     }
     #nav-div button{
-        width:50px;
-        height:20px;
+        max-height:20px;
     }
 
+    #nav-div{
+        min-height:100%;
+    }
 
 }

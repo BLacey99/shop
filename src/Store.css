@@ -5,10 +5,10 @@
     font-size:0.8em;
     color:rgb(228, 235, 230);
     flex-direction:row;
-    justify-content: center;
-    min-width:100vw;
-   
-    padding:20px;
+    justify-content: center !important;
+    min-width:100vw !important;
+    margin-right:auto !important;
+    padding:20px !important;
 
     
 }
@@ -32,9 +32,36 @@
     padding:0;
     margin:0;
    display:block;
+   
 }
 
 
 body{
     background-color:White;
+}
+
+
+.navvy .nav-bar-comp{
+    min-width:0;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .storeNav{
+        flex-direction:column;
+
+    }
+
+    .cartty{
+        position:fixed;
+        right:0;
+        margin:0;
+        padding:0;
+        max-width:15vw;
+        color:gold;
+    }
+
+    .storeNav .navvy, .storeNav .cartty, .storeNav .cartty .cartClass{
+        background-color: rgba(179, 179, 179, 0);
+    }
 }

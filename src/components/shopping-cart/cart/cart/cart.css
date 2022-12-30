@@ -1,28 +1,14 @@
-.cartClass{
-
-background-color: #2E1F47;
-
-}
 
 
 #cartIcon{
-
-    min-width:1.5rem !important;
-    
- 
+    min-width:100%;
 }
 
-a{
 
-}
-
-#cartIcon{
-
-}
 
 #cartSize{
     position:absolute;
-    left:48.5%;
+    left:37.5%;
     top:30%;
 }
 
@@ -31,7 +17,29 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:100%;
+ 
+
+}
+
+.cartClass{
+    flex-direction:column;
+    text-align: center;
+    margin-right:15%;
+}
+
+#total{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:min(1em);
+    
+}
+
+.cartClass p{
+    font-weight:bolder;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5em;
 }
 
 #cartContainer:hover{

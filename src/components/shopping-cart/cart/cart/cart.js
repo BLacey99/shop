@@ -13,7 +13,7 @@ export default function Cart(props) {
         </div>
       </div>
 
-      <p>Total: ${props.total.toFixed(2)}</p>
+      <p id="total">Total: ${props.total.toFixed(2)}</p>
     </div>
   );
 }

@@ -14,23 +14,40 @@ form{
     margin-left:auto;
     margin-right:auto;
     background: linear-gradient(60deg, #2E1F47 0%, rgb(69, 0, 97) 50%,  #2E1F47 100%);
-    
+    min-height:100vh;
+    max-width:75%;
+}
+
+.backgroundFields{
+    background: linear-gradient(60deg, rgba(17,17,17,1) 0%, rgb(34, 34, 34) 70%, rgb(71, 71, 71) 100%);
+    min-width:80%;
+    min-height:50rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-radius:15px;
+    border:3px solid #885da1;
 }
 
 .fieldset{
     display:flex;
     flex-direction:column;
     margin-right:auto;
-    max-width:35rem;
-    min-width:390px;
+    max-width:80%;
+    min-width:40%;
     color:white;
     margin-left:auto;
+    text-align:center;
     }
 
 
     #textField{
-        max-width:30rem;
-        min-width:350px;
+        max-width:80%;
+    min-width:50%;
+    margin-left:auto;
+    margin-right:auto;
         height:10rem;
         border:3px solid rgb(173, 113, 243);
    
@@ -38,8 +55,7 @@ form{
 
 textarea{
     resize:none;
-    max-width:40rem;
-    min-width:300px;
+  
     min-height:20rem;
 }
 
@@ -56,3 +72,13 @@ textarea{
     }
 
 
+    @media only screen and (max-width: 800px) {
+
+        form{
+            align-items: baseline;
+            display:block;
+            margin-bottom:0;
+            
+        }
+      }
+      

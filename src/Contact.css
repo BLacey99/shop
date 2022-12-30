@@ -12,4 +12,15 @@
 .Contact{
     background-color: rgb(182, 182, 182);
     background: radial-gradient(rgb(68, 1, 112), #011);
+   
 }
+
+
+@media only screen and (max-width: 800px) {
+
+    .Contact{
+        padding-bottom:50px;
+    }
+  }
+  
+
