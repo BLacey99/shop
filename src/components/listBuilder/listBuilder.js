@@ -9,6 +9,9 @@ const entries = data.map(item =>{
     return(
         <Lists 
         addFunct = {props.addFunct}
+        quantity = {props.quantity}
+        cartSize = {props.cartSize}
+        cartGrow = {props.cartGrow}
         data={item}
         />)
     })

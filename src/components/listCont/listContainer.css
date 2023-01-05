@@ -13,6 +13,11 @@
     transition:transform 0.25s ease-in;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
 #product-container img{
     max-width:25em;
     padding:5%;

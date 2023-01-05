@@ -4,8 +4,11 @@ import { useState } from "react";
 export default function AddToCart(props){
 
     function addHandle(){
-        props.addFunct(props.price);
-        props.quantityRaise();
+        props.addFunct(props.price * props.quantity);
+        props.quantityRaise(props.quantity);
+
+        
+        props.cartGrow(props.cartSize + props.quantity);
     }
 
 

@@ -13,6 +13,8 @@ export default function ShopBody(props){
     return(
         <div className="shop-body">
             <ListBuilder 
+            cartSize = {props.cartSize}
+            cartGrow = {props.cartGrow}
             addFunct={props.increment}
             />
         </div>

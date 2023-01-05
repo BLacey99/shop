@@ -11,7 +11,13 @@ function Store(props) {
 
   function increment(price) {
     setTotal(total + price);
-    setCartSize(cartSize + 1);
+
+    if(cartSize < 0){
+      setCartSize(0);
+    }else{
+      setCartSize(cartSize);
+    }
+
 
     console.log("Cart size: " + cartSize);
     console.log("$" + total.toFixed(2));
@@ -29,7 +35,7 @@ function Store(props) {
         </div>
       </div>
 
-      <ShopBody total={total} cartSize={cartSize} increment={increment} />
+      <ShopBody total={total} cartGrow = {setCartSize} cartSize={cartSize} increment={increment} />
     </div>
   );
 }
