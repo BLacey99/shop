@@ -1,4 +1,4 @@
-#React Shop Project
+<h1>React Shop Project</h1>
 
 Experimenting with React:
   * Practicing props and passing props through components
